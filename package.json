@@ -1,0 +1,24 @@
+{
+  "main": "index.html",
+  "name": "muvconf",
+  "description": "Multi-User Video Conference",
+  "version": "0.9.0",
+  "keywords": [ "SIP", "video", "VoIP", "multi-user", "chat", "conference" ],
+  "nodejs": true,
+  "single-instance": true,
+  "window": {
+    "show": false,
+    "toolbar": false,
+    "icon": "resource/muvconf/icon.png",
+    "width": 1280,
+    "height": 720,
+    "min_width": 420,
+    "min_height": 400,
+    "debug": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "chromium-args": "--disable-web-security",
+  "permissions": [ "experimental", "videoCapture", "audioCapture" ]
+}
